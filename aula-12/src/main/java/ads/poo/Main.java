@@ -34,12 +34,10 @@ public class Main {
 
 
 
-        draw.line(100, 800, 300, 890);
-        draw.line(900, 800, 700, 890);
+        draw.line(147, 696, 243, 805);
+        draw.line(791, 696, 690, 805);
+        draw.line(121, 248, 791, 695);
 
-        draw.circle(500,1348,500);
-        draw.setPenColor(Color.white);
-        draw.filledRectangle(500,1040, 500, 150);
         /*
         double[] x = {150,250,300,100};
         double[] y = {150,150,100,100};
