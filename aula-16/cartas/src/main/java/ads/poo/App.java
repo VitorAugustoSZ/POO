@@ -20,7 +20,6 @@ public class App implements DrawListener {
         this.draw.setDefaultCloseOperation(3);
         this.draw.enableDoubleBuffering();
         this.draw.addListener(this);
-        this.criarBaralho();
     }
 
     @Override
@@ -47,22 +46,16 @@ public class App implements DrawListener {
                     Carta c = new Carta(naipe, valor);
                     baralho.add(c);
                     String nomeArquivo = String.format("cartas/%d%c.png", valorCarta, naipe.abreviacao); //cria uma String do local do arquivo de acordo com o naipe
-                    System.out.println(nomeArquivo);
-                    this.draw.picture(10+k+j,20+j+k*2,nomeArquivo);
+
+
 
                 }
             }
-
-
-
-
-
-        System.out.println(baralho);
-        System.out.println(baralho.size());
     }
     
     static void main() {
         App app = new App();
+
 
 
     }

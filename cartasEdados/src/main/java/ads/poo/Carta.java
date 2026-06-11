@@ -1,7 +1,5 @@
 package ads.poo;
 
-import edu.princeton.cs.algs4.Draw;
-
 public class Carta {
 
     private Naipe naipe;
